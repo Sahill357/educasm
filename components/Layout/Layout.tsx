@@ -18,7 +18,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Logo Bar */}
-      <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-lg z-40">
+      {/* <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-lg z-40">
         <div className="flex justify-center items-center h-14 px-4">
           <a href="/" onClick={handleLogoClick} className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
@@ -32,7 +32,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             <span className="text-xl font-bold text-white">educasm</span>
           </a>
         </div>
-      </header>
+      </header> */}
 
       {/* Main Content */}
       <main className="flex-1 mt-14 mb-[5.5rem]">
@@ -41,7 +41,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
       {/* Bottom Navigation Bar */}
       <nav className="fixed bottom-14 left-0 right-0">
-  <div className="flex justify-around items-center h-12 max-w-4xl mx-auto pl-[250px]"> {/* Add pl-[15px] here */}
+  <div className="flex justify-around items-center h-12 max-w-4xl mx-auto pl-[250px] mb-20"> {/* Add pl-[15px] here */}
     <Link
       href="/"
       className={`flex flex-col items-center gap-0.5 px-6 py-1 rounded-lg transition-colors ${

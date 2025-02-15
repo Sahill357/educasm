@@ -31,24 +31,15 @@ const data = {
   user: {
     name: "sam",
     email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    avatar: "/brad.jpg",
+
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "educasm",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
-    },
-    {
-      name: "Acme Corp.",
-      logo: AudioWaveform,
-      plan: "Startup",
-    },
-    {
-      name: "Evil Corp.",
-      logo: Command,
-      plan: "Free",
-    },
+    }
   ],
   navMain: [
     {

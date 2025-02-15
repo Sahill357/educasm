@@ -310,7 +310,7 @@ export const PlaygroundView: React.FC<PlaygroundViewProps> = ({
               onSearch={handleSearch}
               placeholder="Enter what you want to practice..."
               centered={true}
-              className="bg-gray-900/80"
+              className="bg-[#18181b]/80"
             />
             
             <p className="text-sm text-gray-400 text-center mt-1">

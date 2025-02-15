@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { ModeToggle } from "@/components/mode-toggle";
+// import { ModeToggle } from "@/components/mode-toggle";
 import { AppSidebar } from "@/components/app-sidebar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
  
@@ -43,7 +43,7 @@ export default function RootLayout({
             <AppSidebar />
             <main>
               <SidebarTrigger />
-              <ModeToggle />
+              {/* <ModeToggle /> */}
                
               {children}
             </main>

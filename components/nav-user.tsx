@@ -1,4 +1,5 @@
 "use client"
+import { ModeToggle } from "@/components/mode-toggle";
 
 import {
   BadgeCheck,
@@ -100,6 +101,17 @@ export function NavUser({
                 <Bell />
                 Notifications
               </DropdownMenuItem>
+              <DropdownMenuItem>
+              <div className="scale-75 ml-[-19px] flex items-center gap-2">
+  <ModeToggle />
+  <span className="text-lg font-bold">Themes</span>
+</div>
+   </DropdownMenuItem>
+               
+
+
+                
+                
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuItem>

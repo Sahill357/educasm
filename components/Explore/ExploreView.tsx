@@ -269,9 +269,10 @@ export const ExploreView: React.FC<ExploreViewProps> = ({
   }, [initialQuery, handleSearch]);
 
   return (
-    <div className="w-full min-h-[calc(100vh-4rem)] flex flex-col relative left-[-85px]  " ref={containerRef}>
+   <div className="w-full min-h-[calc(100vh-4rem)] flex flex-col relative left-[-100px] top-[-80px]" ref={containerRef}>
+
   {showInitialSearch ? (
-    <div className="flex items-center justify-center w-screen h-screen translate-x-[-60px] pb-20">
+    <div className="flex items-center justify-center w-screen h-screen translate-x-[-60px] pb-32">
       <div className="text-center max-w-xl w-full">
         <h1 className="text-2xl sm:text-3xl font-bold mb-4">
           What do you want to explore?
@@ -281,7 +282,8 @@ export const ExploreView: React.FC<ExploreViewProps> = ({
             onSearch={handleSearch}
             placeholder="Enter what you want to explore..."
             centered={true}
-            className="bg-gray-900/80"
+            className="bg-[#18181b]/80"
+
           />
           <p className="text-sm text-gray-400 mt-1">Press Enter to search</p>
           <div className="flex flex-wrap items-center justify-center gap-2 mt-2">
