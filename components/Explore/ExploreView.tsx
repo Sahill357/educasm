@@ -271,7 +271,7 @@ export const ExploreView: React.FC<ExploreViewProps> = ({
   return (
     <div className="w-full min-h-[calc(100vh-4rem)] flex flex-col relative left-[-85px]  " ref={containerRef}>
   {showInitialSearch ? (
-    <div className="flex items-center justify-center w-screen h-screen translate-x-[-60px] pb-16">
+    <div className="flex items-center justify-center w-screen h-screen translate-x-[-60px] pb-20">
       <div className="text-center max-w-xl w-full">
         <h1 className="text-2xl sm:text-3xl font-bold mb-4">
           What do you want to explore?
